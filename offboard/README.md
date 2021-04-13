@@ -10,7 +10,7 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
 roslaunch px4 mavros_posix_sitl.launch
 ```
 
-## Run the Control Node
+## Run the Node to Control the Multirotor
 ```
 cd <your workspace>
 catkin_make
